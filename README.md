@@ -1,9 +1,10 @@
 # Timer Stopwatch Pending
 Problem
 Problem : Google timer
-You can finish this question over the week, if you are not able to solve in the same day
+
 
 Make a react app with the name timer_stopwatch
+<img src ="https://github.com/Satya12325/React-Stopwatch-Timer/blob/master/Screenshot%20(28).png" />
 
 Make sure to include this MarkDown file in your submission with checked boxes for all parts you have completed.
 
