@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Timer Stopwatch Pending
+Problem
+Problem : Google timer
+You can finish this question over the week, if you are not able to solve in the same day
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Make a react app with the name timer_stopwatch
 
-## Available Scripts
+Make sure to include this MarkDown file in your submission with checked boxes for all parts you have completed.
 
-In the project directory, you can run:
+NOTE: Follow the instructions carefully and follow coding discipline
 
-### `npm start`
+NOTE2: Indent your code correctly and stick to one kind of naming style
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+NOTE3: All components must be in different files and within a Components folder. CSS can be shared between components if desired. CSS modules must also be in your components folder.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+NOTE4: All static files like images must be in the public folder.
 
-### `npm test`
+NOTE5: All components files must have the same name as their compoenents. Eg: App must be in App.js.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+NOTE6: You must only call ReactDOM.render once in your index.js file!
 
-### `npm run build`
+Within the react App, delete all files from the src folder and create your own files!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Learning objectives:
+Using listeners in react.
+Modifying state using setInterval
+Using lifecycle methods. ( you can check in componentDidUpdate if seconds are 0, and initiate a stop, write a cleanup with componentWillUnmount )
+if else rendering or using && to render based on condition
+Final Goal
+The goal of this project should be to create a clone of the Google countdown timer and stopwatch.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can see this by either searching google for "stopwatch" or visiting this link https://www.google.com/search?q=stopwatch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Minimum Viable Product
+MVP or minimum viable product is the least amount of functionality you must have done by the end of today.
 
-### `npm run eject`
+You don't need to focus on styles for the MVP.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ You must have implemented a stopwatch that lets you start, stop and reset.
+ The stopwatch must display the number of seconds and milliseconds.
+ The timer must allow a user to manually enter the time using an inputbox, in seconds.
+ The user should be able to start, stop and reset the timer.
+ The user should be able to toggle between the timer and the stopwatch using tabs just like the google timer.
+ The timer should not increment twice if its already clicked
+Stretch Goals
+If you are able to complete the MVP in time, implement this additional functionality. This must be completed by the end of the next day.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ The stopwatch must also display the minutes and hours.
+ The timer must also display the minutes and hours.
+ The timer must allow the user to input the time in seconds minutes and hours just like the Google timer.
+if you want the state of time to be maintained then either lift the state up to the parent component
+or use CSS to hide the other component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
